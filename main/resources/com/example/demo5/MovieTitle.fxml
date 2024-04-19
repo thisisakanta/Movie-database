@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.contrroller">
+   <children>
+      <Button fx:id="onlogonbuttton" layoutX="268.0" layoutY="255.0" mnemonicParsing="false" onAction="#OnSearchButtonClick" text="Searrch" />
+      <TextField fx:id="MoveiName" layoutX="222.0" layoutY="200.0"  promptText="SEACH THE MOVIE NAME" />
+   </children>
+</AnchorPane>

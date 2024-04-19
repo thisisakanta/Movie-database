@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.contrroller">
+   <children>
+      <Button layoutX="223.0" layoutY="230.0" mnemonicParsing="false" onAction="#onProductionBasedMovieClick" text="Click to  see the Movie" />
+      <TextField fx:id="productionCompanyName" layoutX="216.0" layoutY="174.0" />
+   </children>
+</AnchorPane>

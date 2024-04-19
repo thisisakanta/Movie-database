@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.contrroller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Button mnemonicParsing="false" onAction="#toSearchMoviesButton" text="search movies" />
+      <AnchorPane>
+         <children>
+            <Button layoutX="203.0" layoutY="14.0" mnemonicParsing="false" onAction="#onSearchProductionClick" text="Search Production Movies" />
+            <Button layoutX="243.0" layoutY="74.0" mnemonicParsing="false" onAction="#onaddmoviebuttonclick" text="Add Movie" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-13.0" layoutY="-69.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-13.0" layoutY="-35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@450-c4nz6k.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

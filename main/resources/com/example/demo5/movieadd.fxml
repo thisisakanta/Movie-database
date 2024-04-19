@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.Movieadd">
+   <children>
+      <TextField fx:id="movieTitle" alignment="TOP_CENTER" layoutX="220.0" layoutY="27.0" prefHeight="34.0" prefWidth="182.0" promptText="Movie Title">
+         <font>
+            <Font name="Gill Sans MT Condensed" size="24.0" />
+         </font></TextField>
+      <TextField fx:id="releaseYear" alignment="TOP_CENTER" layoutX="110.0" layoutY="89.0" prefHeight="40.0" prefWidth="148.0" promptText="Release Year">
+         <font>
+            <Font name="Fira Code Medium" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="budget" alignment="TOP_CENTER" layoutX="64.0" layoutY="167.0" prefHeight="40.0" prefWidth="191.0" promptText="Budget">
+         <font>
+            <Font name="Fira Code Medium" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="runTime" alignment="TOP_CENTER" layoutX="370.0" layoutY="89.0" prefHeight="40.0" prefWidth="161.0" promptText="Runtime">
+         <font>
+            <Font name="Fira Code Medium" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="revenue" alignment="TOP_CENTER" layoutX="361.0" layoutY="160.0" prefHeight="40.0" prefWidth="200.0" promptText="Revenue">
+         <font>
+            <Font name="Fira Code Medium" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="genreFirst" alignment="TOP_CENTER" layoutX="14.0" layoutY="244.0" prefHeight="40.0" prefWidth="191.0" promptText="Genre1">
+         <font>
+            <Font name="Fira Code Medium" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="genreSecond" alignment="TOP_CENTER" layoutX="222.0" layoutY="244.0" prefHeight="40.0" prefWidth="162.0" promptText="Genre2">
+         <font>
+            <Font name="Fira Code Medium" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="genreThird" alignment="TOP_CENTER" layoutX="394.0" layoutY="243.0" prefHeight="40.0" prefWidth="182.0" promptText="Genre3">
+         <font>
+            <Font name="Fira Code Medium" size="16.0" />
+         </font></TextField>
+      <Button layoutX="257.0" layoutY="295.0" mnemonicParsing="false" onAction="#onaddmoviebuttonclick" prefHeight="46.0" prefWidth="91.0" text="Add Movie">
+         <font>
+            <Font name="Freestyle Script" size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="movieaddedsignal" layoutX="163.0" layoutY="357.0" prefHeight="31.0" prefWidth="254.0">
+         <font>
+            <Font name="Freestyle Script" size="18.0" />
+         </font></Label>
+      <Button layoutX="402.0" layoutY="305.0" mnemonicParsing="false" onAction="#onBackmenuClick" prefHeight="50.0" prefWidth="162.0" text="Back to Main Menu">
+         <font>
+            <Font name="Freestyle Script" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="654.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.Searchbyproduction">
+   <children>
+      <Button layoutX="256.0" layoutY="216.0" mnemonicParsing="false" onAction="#onMaximumrevenuesearchbuttonclick" text="Search" />
+      <TextField fx:id="maxrevenue" layoutX="36.0" layoutY="153.0" prefHeight="35.0" prefWidth="468.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="247.0" prefWidth="437.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.Transfermovie">
+   <children>
+      <TextField fx:id="transferProductionCompany" layoutX="93.0" layoutY="98.0" prefHeight="50.0" prefWidth="250.0" promptText="Transferred Production Company">
+         <font>
+            <Font name="Freestyle Script" size="24.0" />
+         </font></TextField>
+      <Button layoutX="188.0" layoutY="158.0" mnemonicParsing="false" onAction="#onTransferbuttonclick" text="Transfer" textFill="#96c864" />
+      <TextField fx:id="transferMovieName" alignment="TOP_CENTER" layoutX="97.0" layoutY="25.0" prefHeight="50.0" prefWidth="238.0" promptText="Transferred Movie Name">
+         <font>
+            <Font name="Freestyle Script" size="24.0" />
+         </font>
+      </TextField>
+      <Label fx:id="textToseen" alignment="TOP_CENTER" layoutX="81.0" layoutY="199.0" prefHeight="33.0" prefWidth="275.0" text="Label">
+         <font>
+            <Font name="Freestyle Script" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="296.0" layoutY="174.0" mnemonicParsing="false" onAction="#onBackmenuoptionclick" text="Back to Main Menu">
+         <font>
+            <Font name="Freestyle Script" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

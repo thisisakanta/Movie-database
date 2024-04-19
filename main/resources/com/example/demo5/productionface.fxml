@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.ProductionCompanyInterface">
+   <children>
+      <Button layoutX="304.0" layoutY="73.0" mnemonicParsing="false" onAction="#onMaximumrevenuesearchbuttonclick" text="Maximum Revenue" textFill="#1b7d00">
+         <font>
+            <Font name="French Script MT" size="24.0" />
+         </font></Button>
+      <Button layoutX="288.0" layoutY="139.0" mnemonicParsing="false" onAction="#onMostRecentMoviesButtonClick" prefHeight="48.0" prefWidth="194.0" text="Most Recent Movies">
+         <font>
+            <Font name="French Script MT" size="24.0" />
+         </font></Button>
+      <Button layoutX="305.0" layoutY="212.0" mnemonicParsing="false" onAction="#onAddMovieButtonClick" prefHeight="48.0" prefWidth="161.0" text="Add Movie" textFill="BLUE">
+         <font>
+            <Font name="French Script MT" size="24.0" />
+         </font></Button>
+      <Button layoutX="296.0" layoutY="281.0" mnemonicParsing="false" onAction="#onTransferbuttonclick" prefHeight="50.0" prefWidth="179.0" text="Transfer Movie">
+         <font>
+            <Font name="Freestyle Script" size="24.0" />
+         </font></Button>
+      <Button layoutX="360.0" layoutY="352.0" mnemonicParsing="false" text="Button" />
+      <Label fx:id="labelling" layoutX="39.0" layoutY="130.0" prefHeight="114.0" prefWidth="250.0" text="Label" textFill="#fa4343">
+         <font>
+            <Font name="Freestyle Script" size="45.0" />
+         </font></Label>
+      <Button layoutX="319.0" layoutY="16.0" mnemonicParsing="false" onAction="#onMovieListButtonClick" prefHeight="48.0" prefWidth="142.0" text="Movie List">
+         <font>
+            <Font name="Freestyle Script" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.contrroller">
+   <children>
+      <Button layoutX="248.0" layoutY="63.0" mnemonicParsing="false" onAction="#onSearch" text="Search By Title" />
+      <Button layoutX="248.0" layoutY="103.0" mnemonicParsing="false" onAction="#ONYEARSETUP" text=" Search By Year" />
+      <Button layoutX="248.0" layoutY="144.0" mnemonicParsing="false" onAction="#onGenreButton" text="Search By Genre" />
+      <Button layoutX="248.0" layoutY="188.0" mnemonicParsing="false" onAction="#onProductionClick" text="Search By Production" />
+      <Button layoutX="248.0" layoutY="236.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="248.0" layoutY="286.0" mnemonicParsing="false" onAction="#OnTop10moveiButton" text="Top 10 Movies" />
+      <Button layoutX="248.0" layoutY="334.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

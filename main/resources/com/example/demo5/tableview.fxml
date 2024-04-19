@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.Tableview">
+   <children>
+      <TableView fx:id="tablelist" layoutY="11.0" prefHeight="292.0" prefWidth="1011.0">
+        <columns>
+          <TableColumn fx:id="MovieName" prefWidth="158.19997882843018" text="Movie TItle" />
+          <TableColumn fx:id="ReleaseYear" prefWidth="77.60000610351562" text="Release Year" />
+            <TableColumn fx:id="Genre" prefWidth="209.60000610351562" text="Genre" />
+            <TableColumn fx:id="Runtime" prefWidth="86.0" text="Runtime" />
+            <TableColumn fx:id="productionCom" prefWidth="211.0" text="Production Cpmpany" />
+            <TableColumn fx:id="Budget" minWidth="6.199951171875" prefWidth="140.0" text="Budget" />
+            <TableColumn fx:id="Revenue" minWidth="0.0" prefWidth="125.5999755859375" text="Revenue" />
+        </columns>
+      </TableView>
+      <Button layoutX="358.0" layoutY="327.0" mnemonicParsing="false" onAction="#onBackMenuClick" prefHeight="44.0" prefWidth="174.0" text="Back To Main Menu">
+         <font>
+            <Font name="Freestyle Script" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="87.0" layoutY="315.0" mnemonicParsing="false" onAction="#onRefreshbuttonclick" text="Refresh">
+         <font>
+            <Font name="Freestyle Script" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
